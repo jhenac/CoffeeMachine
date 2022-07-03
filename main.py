@@ -86,9 +86,9 @@ while continue_dispense:
                 print("Sorry, that's not enough money. Money refunded.")
 
     elif user_choice == "report":
-        print(f'Water: {resources["water"]}')
-        print(f'Milk: {resources["milk"]}')
-        print(f'Coffee: {resources["coffee"]}')
+        print(f'Water: {resources["water"]}ml')
+        print(f'Milk: {resources["milk"]}ml')
+        print(f'Coffee: {resources["coffee"]}ml)
         print(f"Total sales: ${total_sales}")
     elif user_choice == "off":
         continue_dispense = False
